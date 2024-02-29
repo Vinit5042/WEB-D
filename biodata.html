@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+    <style>
+      *{
+   margin: 10px auto;
+}
+body{
+    background-color:rgb(62, 116, 176);
+    
+}
+h1{
+    text-decoration:underline dotted black;
+    text-align: center;
+    
+}
+h3{
+    text-decoration: 2px underline black;
+}
+
+.form{
+   background-image: url("https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?size=338&ext=jpg&ga=GA1.1.1395880969.1708992000&semt=sph"  );
+   
+     display:flex;
+     flex-direction: column;
+     justify-content: center;
+
+}
+footer>button{
+    background-color:slateblue ;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8%;
+    border: none;
+    margin: 0 5px;
+}
+input:hover{
+    background-color:aqua;
+    color:red ;
+    font-weight: 700;
+    padding: 3px;
+}
+    </style>
+</head>
+<body>
+  <h1>Bio Data Form</h1>
+  <form action="/nit kkr" class="form">
+    <h3>To know the details of students</h3>
+    <div>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br>
+        <label for="f.name">Father's Name: </label>
+        <input type="text" name="f.name" id="f.name" placeholder="Enter your father's name">
+        <br>
+        <label for="m.name">Mother's Name: </label>
+        <input type="text" name="m.name" id="m.name" placeholder="Enter your mother's name">
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="email" id="email" placeholder="Enter your Email">
+        <br>
+        <label for="age">Age: </label>
+        <input type="text" name="age" id="age" placeholder="Age">
+        <br>
+        <label for="dob">D.O.B: </label>
+       <input type="date" name="" id="">
+        <br>
+        <label for="dept">Department: </label>
+        <select name="dept" id="dept">
+          <option value=" ">Enter your department</option>
+          <option value="CS">CS</option>
+          <option value="IT">IT</option>
+          <option value="ECE">ECE</option>
+          <option value="AI&ML">AI&amp;ML</option>
+          <option value="MEC">MEC</option>
+          <option value="PIE">PIE</option>
+          <option value="EE">EE</option>
+          <option value="CE">CE</option>
+          <option value="M&C">M&amp;C</option>
+          <option value="Others">Others</option>
+        </select>
+        <br>
+        <span>Gender:</span>
+        <input type="radio" name="gen" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gen" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gen" id="others" value="others">
+        <label for="others">Others</label>
+        <br>
+        <label for="add">Address:</label>
+        <textarea name="add" id="add" cols="40" rows="4" placeholder="Enter your Address here..."></textarea>
+        <br>
+        <label for="pincode">Pincode:</label>
+        <input type="number" name="pincode" id="pincode" placeholder="6......">
+        <br>
+        <span>Language Known:</span>
+        <input type="checkbox" name="lang" id="eng" value="hindi">
+        <label for="eng">English</label>
+        <input type="checkbox" name="lang" id="hindi" value="english">
+        <label for="eng">Hindi</label>
+        <input type="checkbox" name="lang" id="others" value="others">
+        <label for="others">Others</label>
+        <br>
+        <footer>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </footer>
+        </div>
+    </form>
+</body>
+</html>

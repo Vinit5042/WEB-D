@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiggy</title>
+   <style>
+    .pare{
+    background-color:#fc8019;
+    width: 100%;
+    height:380px;
+    display: flex;
+    
+    display: flex;
+   flex-wrap: wrap;
+   }
+   fieldset:hover{
+    font-size: 20px;
+    select{
+        padding: 5px;
+    }
+    input{
+        height: 2%;
+        width: 30%;
+        padding: 5px;
+    }
+   }
+.img{
+    background-image: url("food1.png");
+    position: absolute;
+    left:30% ;
+    height: 380px;
+    width: 66%;
+    background-size:repeat  ;
+}
+.logo{
+    height: 35%;
+    width: 20%;
+}
+.para  {
+    color: white;
+    font-family:'Franklin Gothic Medium';
+    font-size: 1.5em;
+    font-weight: 900;
+    position: absolute;
+    top: 28%;
+    left: 3%;
+   }
+
+.login{
+    margin-left: 2%;
+}
+.h{
+    margin-left: 2%;
+}
+fieldset{
+    border-radius: 8px;
+}
+nav{
+   position: relative;
+   top: 50px;
+}
+nav>button{
+    font-size:1em;
+    text-align: center;
+     margin-left: 25%;
+    font-weight: 800;
+    height: 1%;
+    width: 50%;
+    color: white;
+    background-color:#fc8019;
+    border-radius: 8px;
+    border: none;
+    padding:1% 5% ;
+    im
+}
+nav>a{
+   margin-left:45%;
+   font-weight: 800;
+}
+footer{
+    text-align: center;
+    position:absolute;
+    left: 24%;
+    top:90%;
+}
+   </style>
+</head>
+<body>
+    <div class="pare">
+        <img src="ass1/swigylogo.png" alt="logo" class="logo" >
+        <div class="para">Swiggy your food,<br>groccery &amp; dining out <br> needs!</div>
+        <div class="img"></div>
+    </div>
+    <h3 class="h">A welcome gift just for you</h3>
+    <p class="login">Login or signup to get your gift</p>
+    <form action="/server">
+        <fieldset>
+            <legend>Mobile Number!</legend>
+            
+            <select name="country" id="country">
+             <option value="IND">+91</option>
+             <option value="USA">+1</option>
+             <option value="GBR">+44</option>
+             <option value="AFG">+93</option>
+             <option value="AKB">+355</option>
+            </select>
+            <input type="text" placeholder="Enter your Number">
+        </fieldset>
+        <nav>
+            <button>Continue</button>
+            <br>
+            <a href="">Skip for now</a>
+        </nav>
+        <footer>
+             <p>By continuing,I accept the <a href="">terms of service</a> and <a href="">privacy policy</a></p>
+         </footer>
+    </form>
+</body>
+</html>
