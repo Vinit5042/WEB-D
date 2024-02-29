@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+            background-color:cadetblue;
+        }
+        h1{
+            text-align: center;
+            text-decoration: underline black;
+        }
+        form{
+          
+           height: 500px;
+           width: 500px;
+           margin: 10px auto;
+           display:flex;
+            flex-direction: column;
+            justify-content: center;
+
+         }
+         button{
+            background-color:slateblue ;
+                color: white;
+                padding: 8px 15px;
+                border-radius: 8%;
+                border: none;
+                margin: 0 5px;}
+         input:hover{
+            background-color:black;
+            color:red ;
+            font-weight: 700;
+            padding: 3px;
+}
+     
+    </style>
+</head>
+<body>
+    
+    <form action="/server">
+      <h1>Registration Account Form</h1>
+        <label for="u.name">Full Name <br>    </label>
+        <input type="text" placeholder="Your Name" name="u.name" id="u.name">
+        <br>
+        <label for="u.email">Your Email <br>    </label>
+        <input type="email" name="email" id="u.email" placeholder="Your Email">
+        <br>
+        <label for="pass">Password <br></label>
+        <input type="password" name="pass" id="pass" placeholder="Your Password">
+        <br>
+        <button>Register</button>
+      
+   </form> 
+</body>
+</html>

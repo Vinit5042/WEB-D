@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <style>
+        body{
+            background-image: url("https://images.pexels.com/photos/7542069/pexels-photo-7542069.jpeg?auto=compress&cs=tinysrgb&w=600");
+        }
+        h1{
+            color: orange;
+            margin-left: 2%;
+            text-decoration: underline solid  ;
+        }
+        h3{
+            background-color:blue;
+            text-align: center;
+            padding: 1%;
+            border-radius: 0.5em;
+            color: orange;
+        }
+        form{
+            background-color: black;
+            max-width: 40%;
+            maxheight: 40%;;
+            color: white;
+            margin: 10px auto;
+            display:flex;
+           flex-direction: column;
+           justify-content: center;
+           
+        }
+        input:hover{
+            background-color:blueviolet;
+            color:yellow ;
+            font-weight: 700;
+            padding: 4px;
+            border-radius:10px ;
+
+        }
+        button{
+                background-color:tomato ;
+                color: white;
+                padding: 8px 15px;
+                border-radius: 12px;
+                border: none;
+                margin: 0 5px;}
+        p{
+            text-align: center;
+        }
+        img{
+            height: 20%;
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>PraRoz BOOK STORE</h1>
+    <form action="/server">
+        <h3>Login Here</h3>
+          <label for="u.name">Full Name <br>    </label>
+          <input type="text" placeholder="Your Name" name="u.name" id="u.name">
+          <br>
+          <label for="u.email">Your Email <br>    </label>
+          <input type="email" name="email" id="u.email" placeholder="Your Email">
+          <br>
+          <label for="pass">Password <br></label>
+          <input type="password" name="pass" id="pass" placeholder="Your Password">
+          <br>
+          <button>Login</button>
+        <p>Don't have an account <a href="">Sign  up </a> here</p>   
+        <p>Log in with</p> 
+        <img src="instalogo.png" alt="social media">  
+     </form> 
+    
+</body>
+</html>
