@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Quattrocento", serif;
+    font-weight:400;
+}
+body{
+    transition: 1s;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+.main .out {
+    height: 9vh;
+    width: 340px;
+    background-color: #fff;
+    border: 3px solid black;
+    margin-top: 50vh;
+    border-radius: 6px;
+}
+.out p{
+    line-height: 28px;
+    text-align: center;
+    font-size: 18px;
+}
+.out button{
+    position: relative;
+    left: 1%;
+    height: 35px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    width: 98%;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0px 1px 6px white;
+}
